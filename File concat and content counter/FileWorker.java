@@ -6,7 +6,7 @@ import java.util.*;
 public class FileWorker {
 
     /**
-     * Reading file to bytes array
+     * Reads file to bytes array
      *
      * @param filename   name of file to open
      * @param bytesCount bytes count to read
@@ -30,7 +30,7 @@ public class FileWorker {
     }
 
     /**
-     * Concatinations array of files in one
+     * Concatinates array of files in one
      *
      * @param destinationFile dest. file
      * @param sourceFiles     String[] of file names

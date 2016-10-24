@@ -9,7 +9,7 @@ public class App {
         FileWorker.concatFiles("comparedfiles.txt", filesToConcat);
         //Количество уникальных слов в файле
         System.out.println("Words count : " + FileWorker.wordsCounter("words.txt"));
-        //Количество букв в файле
+        //Количество каждой из букв в файле
         FileWorker.charCounter("lorem");
     }
 }
